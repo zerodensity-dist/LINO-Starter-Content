@@ -1,0 +1,393 @@
+{
+	"BroadcastPath": "/Temp/AvaMedia/AvaBroadcast.AvaBroadcast",
+	"Broadcast":
+	{
+		"CurrentProfile": "StreamingProfile",
+		"ChannelNames": [
+			"Channel_0",
+			"Channel_1"
+		],
+		"Profiles":
+		{
+			"StreamingProfile":
+			{
+				"Channels": [
+					{
+						"channelIndex": 0,
+						"mediaOutputs": [
+							"/Script/WebStreamingMedia.WebStreamingMediaOutput'/Temp/AvaMedia/AvaBroadcast.AvaBroadcast:WebStreamingMediaOutput_0'"
+						],
+						"mediaOutputInfos": [
+							{
+								"guid": "52CD2FD94C75F40BACCDC1B948B506BC",
+								"serverName": "Local (This Process)",
+								"deviceProviderName": "WebStreaming",
+								"deviceName": "Program"
+							}
+						],
+						"qualitySettings":
+						{
+							"features": [
+								{
+									"name": "AmbientCubemap",
+									"bEnabled": true
+								},
+								{
+									"name": "AmbientOcclusion",
+									"bEnabled": true
+								},
+								{
+									"name": "AntiAliasing",
+									"bEnabled": true
+								},
+								{
+									"name": "EyeAdaptation",
+									"bEnabled": true
+								},
+								{
+									"name": "CapsuleShadows",
+									"bEnabled": true
+								},
+								{
+									"name": "ContactShadows",
+									"bEnabled": true
+								},
+								{
+									"name": "DepthOfField",
+									"bEnabled": true
+								},
+								{
+									"name": "DirectLighting",
+									"bEnabled": true
+								},
+								{
+									"name": "DisableOcclusionQueries",
+									"bEnabled": true
+								},
+								{
+									"name": "DistanceFieldAO",
+									"bEnabled": true
+								},
+								{
+									"name": "DynamicShadows",
+									"bEnabled": true
+								},
+								{
+									"name": "GlobalIllumination",
+									"bEnabled": true
+								},
+								{
+									"name": "IndirectLightingCache",
+									"bEnabled": true
+								},
+								{
+									"name": "LensFlares",
+									"bEnabled": true
+								},
+								{
+									"name": "LightShafts",
+									"bEnabled": true
+								},
+								{
+									"name": "LumenDetailTraces",
+									"bEnabled": true
+								},
+								{
+									"name": "LumenFarFieldTraces",
+									"bEnabled": true
+								},
+								{
+									"name": "LumenGlobalIllumination",
+									"bEnabled": true
+								},
+								{
+									"name": "LumenGlobalTraces",
+									"bEnabled": true
+								},
+								{
+									"name": "LumenReflections",
+									"bEnabled": true
+								},
+								{
+									"name": "LumenReuseShadowMaps",
+									"bEnabled": true
+								},
+								{
+									"name": "LumenScreenSpaceDirectionalOcclusion",
+									"bEnabled": true
+								},
+								{
+									"name": "LumenSecondaryBounces",
+									"bEnabled": true
+								},
+								{
+									"name": "MotionBlur",
+									"bEnabled": true
+								},
+								{
+									"name": "PrecomputedVisibility",
+									"bEnabled": true
+								},
+								{
+									"name": "RayTracedDistanceFieldShadows",
+									"bEnabled": true
+								},
+								{
+									"name": "ReflectionEnvironment",
+									"bEnabled": true
+								},
+								{
+									"name": "ScreenSpaceAO",
+									"bEnabled": true
+								},
+								{
+									"name": "ScreenSpaceReflections",
+									"bEnabled": true
+								},
+								{
+									"name": "SeparateTranslucency",
+									"bEnabled": true
+								},
+								{
+									"name": "SubsurfaceScattering",
+									"bEnabled": true
+								},
+								{
+									"name": "TemporalAA",
+									"bEnabled": true
+								},
+								{
+									"name": "TexturedLightProfiles",
+									"bEnabled": true
+								},
+								{
+									"name": "Translucency",
+									"bEnabled": true
+								},
+								{
+									"name": "VolumetricFog",
+									"bEnabled": true
+								},
+								{
+									"name": "VolumetricLightmap",
+									"bEnabled": true
+								}
+							]
+						}
+					},
+					{
+						"channelIndex": 1,
+						"mediaOutputs": [
+							"/Script/WebStreamingMedia.WebStreamingMediaOutput'/Temp/AvaMedia/AvaBroadcast.AvaBroadcast:WebStreamingMediaOutput_1'"
+						],
+						"mediaOutputInfos": [
+							{
+								"guid": "5BA983EF4A43F971B7B81AA284C7BE5B",
+								"serverName": "Local (This Process)",
+								"deviceProviderName": "WebStreaming",
+								"deviceName": "Preview"
+							}
+						],
+						"qualitySettings":
+						{
+							"features": [
+								{
+									"name": "AmbientCubemap",
+									"bEnabled": true
+								},
+								{
+									"name": "AmbientOcclusion",
+									"bEnabled": true
+								},
+								{
+									"name": "AntiAliasing",
+									"bEnabled": true
+								},
+								{
+									"name": "EyeAdaptation",
+									"bEnabled": true
+								},
+								{
+									"name": "CapsuleShadows",
+									"bEnabled": true
+								},
+								{
+									"name": "ContactShadows",
+									"bEnabled": true
+								},
+								{
+									"name": "DepthOfField",
+									"bEnabled": true
+								},
+								{
+									"name": "DirectLighting",
+									"bEnabled": true
+								},
+								{
+									"name": "DisableOcclusionQueries",
+									"bEnabled": true
+								},
+								{
+									"name": "DistanceFieldAO",
+									"bEnabled": true
+								},
+								{
+									"name": "DynamicShadows",
+									"bEnabled": true
+								},
+								{
+									"name": "GlobalIllumination",
+									"bEnabled": true
+								},
+								{
+									"name": "IndirectLightingCache",
+									"bEnabled": true
+								},
+								{
+									"name": "LensFlares",
+									"bEnabled": true
+								},
+								{
+									"name": "LightShafts",
+									"bEnabled": true
+								},
+								{
+									"name": "LumenDetailTraces",
+									"bEnabled": true
+								},
+								{
+									"name": "LumenFarFieldTraces",
+									"bEnabled": true
+								},
+								{
+									"name": "LumenGlobalIllumination",
+									"bEnabled": true
+								},
+								{
+									"name": "LumenGlobalTraces",
+									"bEnabled": true
+								},
+								{
+									"name": "LumenReflections",
+									"bEnabled": true
+								},
+								{
+									"name": "LumenReuseShadowMaps",
+									"bEnabled": true
+								},
+								{
+									"name": "LumenScreenSpaceDirectionalOcclusion",
+									"bEnabled": true
+								},
+								{
+									"name": "LumenSecondaryBounces",
+									"bEnabled": true
+								},
+								{
+									"name": "MotionBlur",
+									"bEnabled": true
+								},
+								{
+									"name": "PrecomputedVisibility",
+									"bEnabled": true
+								},
+								{
+									"name": "RayTracedDistanceFieldShadows",
+									"bEnabled": true
+								},
+								{
+									"name": "ReflectionEnvironment",
+									"bEnabled": true
+								},
+								{
+									"name": "ScreenSpaceAO",
+									"bEnabled": true
+								},
+								{
+									"name": "ScreenSpaceReflections",
+									"bEnabled": true
+								},
+								{
+									"name": "SeparateTranslucency",
+									"bEnabled": true
+								},
+								{
+									"name": "SubsurfaceScattering",
+									"bEnabled": true
+								},
+								{
+									"name": "TemporalAA",
+									"bEnabled": true
+								},
+								{
+									"name": "TexturedLightProfiles",
+									"bEnabled": true
+								},
+								{
+									"name": "Translucency",
+									"bEnabled": true
+								},
+								{
+									"name": "VolumetricFog",
+									"bEnabled": true
+								},
+								{
+									"name": "VolumetricLightmap",
+									"bEnabled": true
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"ChannelTypes":
+		{
+			"Channel_1": "Preview",
+			"Channel_0": "Program"
+		},
+		"PinnedChannels":
+		{
+		}
+	},
+	"ReferencedObjects": [
+		{
+			"Class": "/Script/WebStreamingMedia.WebStreamingMediaOutput",
+			"Name": "WebStreamingMediaOutput_0",
+			"Flags": "8",
+			"Object":
+			{
+				"StreamerId": "Program",
+				"SignallingServerURL": "ws://127.0.0.1:80/_mps_ue-motion-design-program_1/1",
+				"FrameRate":
+				{
+					"Numerator": 60,
+					"Denominator": 1
+				},
+				"bCoupleFramerate": false,
+				"OutputType": "Fill",
+				"bInvertKeyOutput": true,
+				"NumberOfTextureBuffers": 4
+			}
+		},
+		{
+			"Class": "/Script/WebStreamingMedia.WebStreamingMediaOutput",
+			"Name": "WebStreamingMediaOutput_1",
+			"Flags": "8",
+			"Object":
+			{
+				"StreamerId": "Preview",
+				"SignallingServerURL": "ws://127.0.0.1:80/_mps_ue-motion-design-preview_1/1",
+				"FrameRate":
+				{
+					"Numerator": 60,
+					"Denominator": 1
+				},
+				"bCoupleFramerate": false,
+				"OutputType": "Fill",
+				"bInvertKeyOutput": true,
+				"NumberOfTextureBuffers": 4
+			}
+		}
+	]
+}
